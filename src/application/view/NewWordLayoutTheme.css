@@ -1,0 +1,33 @@
+
+.text-field {
+	-fx-background-color:transparent  ;
+	-fx-border-color:white ;
+	-fx-border-width:1;
+	-fx-text-fill:white;
+	-fx-font-size:14px;
+	-fx-highlight-fill:white;
+	-fx-highlight-text-fill:black;
+	-fx-cursor:text ;
+	-fx-effect:dropshadow(three-pass-box,white,4,0,0,0) ;
+}
+.label {
+	-fx-text-fill:white ;
+}
+.button {
+	-fx-border-color:white;
+	-fx-font-size:14px;
+	-fx-font-weight:normal;
+	-fx-border-width:1;
+    -fx-text-fill:white;
+    -fx-background-color:transparent ;
+	-fx-effect:dropshadow(three-pass-box,white,2,0,0,0) ;
+    -fx-border-radius:0;
+    -fx-background-radius:0;
+}
+.button:hover {
+	-fx-text-fill:black;
+	-fx-background-color:white ;
+}
+#word, #mean {
+	-fx-text-fill:red ;
+}
